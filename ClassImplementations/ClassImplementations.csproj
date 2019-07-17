@@ -41,15 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="CrudLogging.cs" />
     <Compile Include="CrudTransactional.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CrudContracts\CrudContracts.csproj">
+    <ProjectReference Include="..\Contracts\Contracts.csproj">
       <Project>{bd45e301-2550-4e1e-9a19-e5c81a1e4ffa}</Project>
-      <Name>CrudContracts</Name>
+      <Name>Contracts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

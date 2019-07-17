@@ -1,9 +1,9 @@
-﻿using CrudContracts;
+﻿using Contracts;
 using System;
 using System.Collections.Generic;
 using System.Transactions;
 
-namespace CrudClassImplementations
+namespace ClassImplementations
 {
     public class CrudTransactional<TEntity> : ICreateReadUpdateDelete<TEntity>
     {

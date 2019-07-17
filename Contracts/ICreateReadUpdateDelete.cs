@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CrudContracts
+namespace Contracts
 {
     public interface ICreateReadUpdateDelete<TEntity>
     {

@@ -1,4 +1,4 @@
-﻿using CrudContracts;
+﻿using Contracts;
 using System;
 using System.Collections.Generic;
 
