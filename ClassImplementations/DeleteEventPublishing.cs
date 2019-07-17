@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CrudClassImplementations
+namespace ClassImplementations
 {
-    class DeleteEventPublishing<TEntity> : IDelete<TEntity>
+    public class DeleteEventPublishing<TEntity> : IDelete<TEntity>
     {
         private readonly IDelete<TEntity> decorated;
         private readonly IEventPublisher eventPublisher;

@@ -42,14 +42,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AuditInfo.cs" />
+    <Compile Include="AuditInfoSaver.cs" />
+    <Compile Include="CreateReadUpdateDelete.cs" />
     <Compile Include="CrudLogging.cs" />
     <Compile Include="CrudTransactional.cs" />
     <Compile Include="DeleteConfirmation.cs" />
     <Compile Include="DeleteEventPublishing.cs" />
+    <Compile Include="EventPublisher.cs" />
+    <Compile Include="GenericController.cs" />
     <Compile Include="ModificationEventPublishing.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderController.cs" />
+    <Compile Include="OrderDeleter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadCaching.cs" />
+    <Compile Include="OrderReader.cs" />
     <Compile Include="SaveAuditing.cs" />
+    <Compile Include="OrderSaver.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Contracts\Contracts.csproj">

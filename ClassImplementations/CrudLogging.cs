@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CrudClassImplementations
+namespace ClassImplementations
 {
     public class CrudLogging<TEntity> : ICreateReadUpdateDelete<TEntity>
     {

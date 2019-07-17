@@ -1,11 +1,8 @@
-﻿using CrudContracts;
+﻿using Contracts;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CrudClassImplementations
+namespace ClassImplementations
 {
     public class ReadCaching<TEntity> : IRead<TEntity>
     {
@@ -18,11 +15,11 @@ namespace CrudClassImplementations
             this.decorated = decorated;
         }
 
-        public IEnumerable<TEntity> Readall()
+        public IEnumerable<TEntity> ReadAll()
         {
             if(allCachedEntities == null)
             {
-                allCachedEntities = decorated.Readall();
+                allCachedEntities = decorated.ReadAll();
             }
 
             return allCachedEntities;

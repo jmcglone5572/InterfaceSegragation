@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CrudClassImplementations
+namespace ClassImplementations
 {
     public class AuditInfo
     {

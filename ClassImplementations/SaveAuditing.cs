@@ -2,7 +2,7 @@
 using System;
 using System.Threading;
 
-namespace CrudClassImplementations
+namespace ClassImplementations
 {
     public class SaveAuditing<TEntity> : ISave<TEntity>
     {
